@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+名字：<input type="text" value="请输入名字" name="username"/><br />
+密码：<input type="passwork" name="pwd"/><br />
+
+****喜欢的水果*****<br />
+<input type="checkbox" name="v1">西瓜<br/>
+<input type="checkbox" name="v1" >南瓜<br/>
+*****选择性别*****
+<input type="radio" name="sex1"/>男<br/>
+<input type="radio" name="sex1"/>女<br/>
+******隐藏<br/>
+<input type="hidden" value="123" name="sal"/>
+****隐藏（他的用处主要是，即可提交数据，同时不影响界面）<br/>
+****下拉选择框*****<br/>
+请选择你的出生地：
+<select name="biradd">
+<option value="">-----请选择-------</option>
+<option value="=bj">北京</option>
+<option value="nj">南京</option>
+<option value="dj">东京</option>
+</select><br/>
+******请留言(文本域）******<br/>
+<textarea cols="30" rows="10">请这里输入</textarea><br/>
+*******请选择你要上传的文件*******<br/>
+<input type="file" name="myfile"/>请选择文件
